@@ -56,11 +56,12 @@
 				<version>${jib-maven-plugin.version}</version>
 				<configuration>
 					<from>
-						<!--<image>registry.cn-hangzhou.aliyuncs.com/lianggzone/oracle_java8</image>-->
-						<image>registry.cn-beijing.aliyuncs.com/hcloud/oraclejdk8</image>
+						<!--<image>registry.cn-beijing.aliyuncs.com/hcloud/oraclejdk8</image>-->
+						<image>lib.taiji.com.cn:8084/library/java:8</image>
 					</from>
 					<to>
-						<image>registry.cn-beijing.aliyuncs.com/tdfcloud/jib-test:v1</image>
+						<!--<image>registry.cn-beijing.aliyuncs.com/tdfcloud/jib-test:v1</image>-->
+						<image>lib.taiji.com.cn:8082/tdf-cloud/jib-test:v1</image>
 					</to>
 					<container>
 						<jvmFlags>
