@@ -70,6 +70,8 @@
 						</jvmFlags>
 						<mainClass>cn.com.taiji.jibtest.JibtestApplication</mainClass>
 					</container>
+					<!--太极内网不是https，所以要开启，使用github时需要注释掉-->
+					<allowInsecureRegistries>true</allowInsecureRegistries>
 				</configuration>
 				<executions>
 					<execution>
